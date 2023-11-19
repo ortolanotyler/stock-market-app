@@ -1,0 +1,31 @@
+/* StockList.css */
+.stock-list {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.stock-item {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stock-item:last-child {
+    border-bottom: none;
+}
+
+.stock-item-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.stock-item-price {
+    font-size: 14px;
+    color: #666;
+}
