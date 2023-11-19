@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import PortfolioItem from './PortfolioItem'; // A component for individual portfolio items
+import './PortfolioTracker.css'
 
 const PortfolioTracker = () => {
     const [portfolio, setPortfolio] = useState([]);
