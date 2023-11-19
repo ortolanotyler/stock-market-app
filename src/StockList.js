@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import StockItem from './StockItem'; // A sub-component for individual stock items
+import './StockList.css'
 
 const StockList = () => {
     const [stocks, setStocks] = useState([]);
